@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    .header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    .education, .experience {
+      margin-bottom: 20px;
+    }
+    #profile-image {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    .graph {
+      display: flex;
+      align-items: center;
+    }
+    .graph-label {
+      text-align: right;
+      padding-right: 10px;
+      width: 100px;
+    }
+    .graph-bar {
+      height: 20px;
+      background-color: #6f7e75;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="type1">
+        <img src="profile.jpg" alt="Profile Image" id="profile-image">
+        <ul class="list-unstyled">
+          <li><a href="https://www.linkedin.com/in/uzair">LinkedIn</a></li>
+          <li><a href="https://twitter.com/uzair">Twitter</a></li>
+          <li><a href="https://facebook.com/uzair">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="type2">
+        <div class="header">
+          <h1>Mr.Uzair</h1>
+          <p>Web Developer</p>
+          <p>Objective: To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</p>
+        </div>
+        <div class="education">
+          <h2>Education</h2>
+          <p>Bachelor's in Computer Science - ABC University (2015-2019)</p>
+        </div>
+        <div class="experience">
+          <h2>Experience</h2>
+          <div class="language">
+            <p>Python</p>
+            <div class="graph">
+              <div class="graph-label">90%</div>
+              <div class="graph-bar" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="language">
+            <p>JavaScript</p>
+            <div class="graph">
+              <div class="graph-label">85%</div>
+              <div class="graph-bar" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="language">
+            <p>HTML/CSS</p>
+            <div class="graph">
+              <div class="graph-label">80%</div>
+              <div class="graph-bar" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
